@@ -40,7 +40,7 @@ class _HomePageContentState extends State<HomePageContent> {
             ),
           );
         }
-        
+
         final news = provider.filteredNews;
         if (news == null || news.isEmpty) {
           return const Center(

@@ -6,7 +6,8 @@ class NewsRepository {
 
   NewsRepository()
       : _api = HTTPInteraction<List<NewsModel>>(
-          fromJson: (dynamic json) => NewsModel.fromJsonList(json as List<dynamic>),
+          fromJson: (dynamic json) =>
+              NewsModel.fromJsonList(json as List<dynamic>),
         );
 
   Future<List<NewsModel>> getNews() async {

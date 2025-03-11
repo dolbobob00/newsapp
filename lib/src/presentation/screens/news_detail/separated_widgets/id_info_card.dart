@@ -43,7 +43,7 @@ class IdInfoCard extends StatelessWidget {
             Align(
               alignment: Alignment.centerRight,
               child: ShareButton(
-                idOfNews: id??'404',
+                idOfNews: id ?? '404',
               ),
             )
           ],

@@ -13,7 +13,7 @@ class SliverAppBarForNews extends StatelessWidget {
       pinned: true,
       flexibleSpace: FlexibleSpaceBar(
         title: Text(
-          title??'News Detail',
+          title ?? 'News Detail',
           style: theme.textTheme.titleMedium?.copyWith(
             color: theme.colorScheme.onPrimary,
             shadows: [

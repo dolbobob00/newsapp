@@ -39,11 +39,10 @@ class _SplashScreenState extends State<SplashScreen>
     );
 
     _initializeApp();
+    _controller.forward();
   }
 
   Future<void> _initializeApp() async {
-    _controller.forward();
-
     context.read<NewsProvider>().fetchNews(
           showLoading: false,
         );

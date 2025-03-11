@@ -12,12 +12,3 @@ class ThemeProvider extends ChangeNotifier {
     notifyListeners();
   }
 }
-
-// Consumer<ThemeProvider>(
-//   builder: (context, provider, child) {
-//     return IconButton(
-//       icon: Icon(provider.isDarkMode ? Icons.light_mode : Icons.dark_mode),
-//       onPressed: () => provider.toggleTheme(),
-//     );
-//   },
-// );

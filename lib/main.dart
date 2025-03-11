@@ -6,7 +6,7 @@ import 'package:provider/provider.dart';
 import 'src/providers/news_provider.dart';
 import 'src/providers/theme_provider.dart';
 
-void main()  {
+void main() {
   WidgetsFlutterBinding.ensureInitialized();
   runApp(
     const MainApp(),
